@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.6505634c.chunk.css",
+    "main.js": "/Portfolio/static/js/main.12d7ae4f.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.12d7ae4f.chunk.js.map",
+    "runtime-main.js": "/Portfolio/static/js/runtime-main.f8cbedc0.js",
+    "runtime-main.js.map": "/Portfolio/static/js/runtime-main.f8cbedc0.js.map",
+    "static/js/2.f58b28e0.chunk.js": "/Portfolio/static/js/2.f58b28e0.chunk.js",
+    "static/js/2.f58b28e0.chunk.js.map": "/Portfolio/static/js/2.f58b28e0.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.fc2a64dfd8dff16aae4029786c37d4c0.js": "/Portfolio/precache-manifest.fc2a64dfd8dff16aae4029786c37d4c0.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.6505634c.chunk.css.map": "/Portfolio/static/css/main.6505634c.chunk.css.map",
+    "static/js/2.f58b28e0.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.f58b28e0.chunk.js.LICENSE.txt",
+    "static/media/Designing.png": "/Portfolio/static/media/Designing.c9dbc475.png",
+    "static/media/Development.png": "/Portfolio/static/media/Development.ce0de63f.png",
+    "static/media/Profile.svg": "/Portfolio/static/media/Profile.af540e98.svg",
+    "static/media/Teaching.png": "/Portfolio/static/media/Teaching.f8592379.png",
+    "static/media/Banner.css": "/Portfolio/static/media/back-ground_h.a789655a.jpg",
+    "static/media/html.png": "/Portfolio/static/media/html.8e6d0baf.png",
+    "static/media/js.png": "/Portfolio/static/media/js.76b81eea.png",
+    "static/media/react_lib.png": "/Portfolio/static/media/react_lib.8cf99be3.png",
+    "static/media/xd.png": "/Portfolio/static/media/xd.724ec087.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f8cbedc0.js",
+    "static/js/2.f58b28e0.chunk.js",
+    "static/css/main.6505634c.chunk.css",
+    "static/js/main.12d7ae4f.chunk.js"
+  ]
+}
