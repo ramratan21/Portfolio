@@ -1,0 +1,53 @@
+.banner {
+    background-image: url("./res/back-ground_h.jpg");
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: auto;
+    padding-top: 70px;
+    font-size: 2rem;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.content-container img {
+    margin: 20px auto;
+    height: 250px;
+    width: 200px;
+}
+
+#welcome {
+    margin: 20px auto;
+}
+
+#intro {
+    margin: 70px auto;
+    font-family: 'Caveat', cursive;
+    color: white;
+    font-size: 5rem;
+}
+
+#intro span {
+    color: var(--mblue);
+}
+
+#comment {
+    margin: 20px auto;
+}
+
+@media only screen and (max-width: 800px){
+    .banner{
+        font-size: 1.5rem;
+        background-size: cover;
+    }
+
+    #intro {
+        font-size: 3rem;
+        margin: 30px auto;
+    }
+}

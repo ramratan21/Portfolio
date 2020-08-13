@@ -1,0 +1,106 @@
+header {
+    width: 100vw;
+    height: 70px;
+    background-color: black;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-image:linear-gradient(45deg, black 3rem, #1b1b50);
+    z-index: 5;
+}
+
+#menu4 {
+    display: none;
+}
+.logo {
+    grid-column: 1/2;
+    justify-self: start;
+}
+
+.logo .svg {
+    height: 65px;
+    width: 100px;
+}
+
+#mobile-version {
+    display: none;
+}
+
+#desktop-version {
+    grid-column: 2/3;
+    justify-self: end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-right: 1rem;
+}
+
+nav a {
+    padding: 0.5rem;
+}
+
+.navigation {
+    text-decoration: none;
+    margin: 0 0.5rem;
+    color: var(--mblue);
+    font-size: 1.2rem;
+}
+
+header a:hover {
+    color: white;
+}
+
+@media only screen and (max-width: 800px){
+    header {
+        height: 50px;
+    }
+
+    .logo .svg {
+    height: 45px;
+    width: 80px;
+    }
+
+    #mobile-version {
+        display: flex;
+        align-content: stretch;
+        flex-direction: column;
+        position: absolute;
+        opacity: 0;
+        transform-origin: top right;
+        top: 51px;
+        right: 0;
+        background-image: linear-gradient(to left, #1b1b50 2rem, black 6rem);
+        height: 200px;
+        min-width: 40vw;
+    }
+    
+    .navigation {
+    font-size: 1rem;
+    width: 100%;
+    align-self: stretch;
+    margin: auto;
+    padding: 100% auto;
+    color: white;
+    background-image: linear-gradient(to left, grey , black);
+    font-weight: bold;
+    }
+
+    .navigation:hover {
+        background-image: none;
+        background-color: black;
+    }
+
+    #menu4 {
+        display: block;
+        columns: 2/3;
+        justify-self: end;
+        align-self: center;
+        padding-right: 1rem;
+        color: var(--mblue);
+    }
+
+    #desktop-version {
+        display: none;
+    }
+}

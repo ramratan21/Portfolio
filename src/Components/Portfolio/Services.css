@@ -1,0 +1,31 @@
+.Services-container {
+    margin-top: 100px;
+}
+
+.Services-container h1 {
+    color : white;
+    border-bottom: grey 5px solid;
+    margin: 30px auto;
+    width: 200px;
+    font-size: 3rem;
+}
+
+#Services {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Service {
+    transform: scale(0.4);
+    margin: -130px;
+    flex-shrink: 2;
+}
+
+@media only screen and (max-width: 900px){
+    .Services-container{
+        margin-top: 0;
+    }
+}
